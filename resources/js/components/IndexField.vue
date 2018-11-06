@@ -1,6 +1,5 @@
 <template>
-    <div v-if="field.asHtml" v-html="value"></div>
-    <span v-else class="whitespace-no-wrap">{{ value }}</span>
+    <span v-html="value"></span>
 </template>
 
 <script>
